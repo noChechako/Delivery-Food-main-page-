@@ -4,31 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-        href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
-        rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="cssFile.css">
 </head>
 
 <body>
-   
 
-    <header>
-        <img src="img/logo.png" alt="">
-        <input  type="text" placeholder="Адрес доставки">
-        <div class="right__menu">
-            <div class="enter">
-                <a class="enter__a" href=""> Войти</a>
+    <div class="allItems">
+        <header>
+           <a href="htmlFile.html" class="logo"><img src="img/logo.png" alt="" ></a>
+            <input type="text" placeholder="Адрес доставки">
+            <div class="right__menu">
+                <div class="enter">
+                    <a class="enter__a" href=""> Войти</a>
+                </div>
+                <div class="basket">
+                    Корзина
+                </div>
             </div>
-            <div class="basket">
-                <a class="basket__a" href="">Корзина</a>
-            </div>
-        </div>
 
-    </header>
-    <section class="banner">
+        </header>
+        <section class="banner">
             <h1 class="banner-title">Онлайн-сервис <br />доставки еды на дом</h1>
             <p class="banner-text">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
             </p>
@@ -59,7 +56,7 @@
                     <!-- /.card-text -->
                 </div>
                 <!-- /.card -->
-                <div class="card">
+                <a href="tanyki.html" class="card">
                     <img src="img/tanyki.jpg" alt="image" class="card-image" />
                     <div class="card-text">
                         <div class="card-heading">
@@ -77,7 +74,7 @@
                         <!-- /.card-info -->
                     </div>
                     <!-- /.card-text -->
-                </div>
+                </a>
                 <!-- /.card -->
                 <div class="card">
                     <img src="img/FoodBand.jpg" alt="image" class="card-image" />
@@ -159,24 +156,74 @@
                     <!-- /.card-text -->
                 </div>
                 <!-- /.card -->
-            
+
             </div>
             <!-- /.cards -->
         </section>
-    <footer>
-        <nav>
-            <img  src="img/logo.png" alt="">
-            <a href="">Ресторанам</a>
-            <a href="">Курьерам</a>
-            <a href="">Пресс-центр</a>
-            <a href="">Контакты</a>
-            <img class="footer__img" src="img/instagram.png" alt="">
-            <img class="footer__img" src="img/facebook.png" alt="">
-            <img class="footer__img" src="img/vk.png" alt="">
-        </nav>
+        <footer>
+            <nav>
+                <img src="img/logo.png" alt="">
+                <a href="">Ресторанам</a>
+                <a href="">Курьерам</a>
+                <a href="">Пресс-центр</a>
+                <a href="">Контакты</a>
+                <img class="footer__img" src="img/instagram.png" alt="">
+                <img class="footer__img" src="img/facebook.png" alt="">
+                <img class="footer__img" src="img/vk.png" alt="">
+            </nav>
 
 
-    </footer>
+        </footer>
+    </div>
+
+    <div class="modal">
+        <div class="modal__window">
+            <div class="modal__header">
+                <h1>Корзина</h1>
+                <div class="cross">&times;</div>
+            </div>
+            <div class="elements__basket">
+              
+                <div class="elem__basket">
+                    asd
+                </div>
+                <div class="elem__basket">
+                    asd
+                </div>
+                <div class="elem__basket">
+                    asd
+                </div>
+                <div class="elem__basket">
+                    asd
+                </div>
+                <div class="elem__basket">
+                    asd
+                </div>
+                <div class="elem__basket">
+                    asd
+                </div>
+                <div class="elem__basket">
+                    asd
+                </div>
+                <div class="elem__basket">
+                    asd
+                </div>
+                <div class="elem__basket">
+                    asd
+                </div>
+                
+            </div>
+            <div class="modal__footer">
+                <div class="right__footer">
+                    <div class="checkout"> Оформить заказ</div>
+                    <div class="cancel">Отмена</div>
+                </div>
+                <div class="total__price">
+                    100000 &#8381; 
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="jsFile.js"></script>
 
